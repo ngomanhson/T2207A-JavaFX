@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Danhba">
+   <children>
+      <TextField fx:id="txtName" layoutX="32.0" layoutY="62.0" prefHeight="31.0" prefWidth="208.0" text="Name" />
+      <TextField fx:id="tlPhone" layoutX="32.0" layoutY="132.0" prefHeight="31.0" prefWidth="208.0" text="Telephone" />
+      <Button layoutX="150.0" layoutY="198.0" mnemonicParsing="false" onAction="#submit" prefHeight="31.0" prefWidth="90.0" text="Submit" />
+      <Text fx:id="txtInfo" layoutX="403.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="54.6708984375">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <ListView fx:id="lv" onMouseClicked="#edit" layoutX="330.0" layoutY="98.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button onAction="#sort"  layoutX="423.0" layoutY="322.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="107.0" text="Sort" />
+   </children>
+</Pane>
