@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="256.0" layoutY="222.0" prefHeight="768.0" prefWidth="1366.0" stylesheets="@../css/movie.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="44.0" prefWidth="1366.0" stylesheets="@../css/movie.css" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="569.0" layoutY="-100.0" prefHeight="38.0" prefWidth="1366.0" styleClass="top-from" stylesheets="@../css/movie.css" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label layoutX="38.0" layoutY="9.0" text="Movie Ticket Booking Management system">
+                           <font>
+                              <Font name="Microsoft Sans Serif" size="13.0" />
+                           </font>
+                        </Label>
+                        <FontAwesomeIcon fill="#c30c0c" glyphName="PLAY" layoutX="14.0" layoutY="22.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane prefHeight="724.0" prefWidth="215.0" styleClass="nav-from" stylesheets="@../css/movie.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="54.0" layoutY="179.0" text="Welcome" textFill="#fff8f8">
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="26.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="8.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../images/logo.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="22.0" layoutY="664.0" mnemonicParsing="false" styleClass="signout" stylesheets="@../css/movie.css" textFill="#fcfcfc">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="SIGN_OUT" size="1.4em" />
+                     </graphic>
+                  </Button>
+                  <Label layoutX="76.0" layoutY="669.0" text="Sign Out" textFill="WHITE">
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="18.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="14.0" layoutY="331.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="175.0" styleClass="nav-btn" stylesheets="@../css/movie.css" text="Dashboard" AnchorPane.leftAnchor="10.0">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="DASHBOARD" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="14.0" layoutY="444.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="175.0" styleClass="nav-btn" stylesheets="@../css/movie.css" text="Customers" AnchorPane.leftAnchor="10.0">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="USERS" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="15.0" layoutY="386.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="185.0" styleClass="nav-btn" stylesheets="@../css/movie.css" text="Available Movies" AnchorPane.leftAnchor="10.0">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="PLAY_CIRCLE" />
+                     </graphic>
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane fx:id="sold_from" prefHeight="722.0" prefWidth="1151.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <AnchorPane layoutX="14.0" layoutY="15.0" prefHeight="695.0" prefWidth="300.0" styleClass="bg-white" stylesheets="@../css/movie.css">
+                           <children>
+                              <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="272.0" prefWidth="272.0" styleClass="booking" stylesheets="@../css/movie.css">
+                                 <children>
+                                    <Label layoutX="62.0" layoutY="27.0" text="Ticket#:">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="33.0" layoutY="68.0" text="Movie Title:">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="10.0" layoutY="107.0" text="Total Payment:">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="12.0" layoutY="148.0" text="Date Checked:">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="11.0" layoutY="191.0" text="Time Checked:">
+                                       <font>
+                                          <Font size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="128.0" layoutY="24.0" prefHeight="33.0" prefWidth="130.0" text="23" />
+                                    <Label layoutX="128.0" layoutY="63.0" prefHeight="33.0" prefWidth="137.0" styleClass="txt-label" stylesheets="@../css/movie.css" text="NgoManhSon" />
+                                    <Label layoutX="128.0" layoutY="104.0" prefHeight="33.0" prefWidth="137.0" styleClass="txt-label" stylesheets="@../css/movie.css" text="\$23.1" />
+                                    <Label layoutX="128.0" layoutY="144.0" prefHeight="33.0" prefWidth="137.0" styleClass="txt-label" stylesheets="@../css/movie.css" text="2023-02-18" />
+                                    <Label layoutX="128.0" layoutY="185.0" prefHeight="33.0" prefWidth="137.0" styleClass="txt-label" stylesheets="@../css/movie.css" text="23:10:04" />
+                                 </children>
+                              </AnchorPane>
+                              <Button layoutX="14.0" layoutY="348.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="99.0" styleClass="btn-clear" stylesheets="@../css/movie.css" text="Clear" />
+                              <Button layoutX="187.0" layoutY="348.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="99.0" styleClass="btn-delete" stylesheets="@../css/movie.css" text="Delete" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="340.0" layoutY="15.0" prefHeight="695.0" prefWidth="797.0" styleClass="bg-white" stylesheets="@../css/movie.css">
+                           <children>
+                              <TableView layoutX="11.0" layoutY="84.0" prefHeight="598.0" prefWidth="776.0" style="-fx-background-radius: ;" stylesheets="@../css/movie.css">
+                                <columns>
+                                  <TableColumn prefWidth="121.0" text="Ticket Number" />
+                                  <TableColumn prefWidth="224.0" text="Movie Title" />
+                                    <TableColumn minWidth="0.0" prefWidth="136.0" text="Total Payment" />
+                                    <TableColumn minWidth="0.0" prefWidth="145.0" text="Date Checked Out" />
+                                    <TableColumn prefWidth="149.0" text="Time Checked Out" />
+                                </columns>
+                              </TableView>
+                              <TextField layoutX="14.0" layoutY="25.0" prefHeight="35.0" prefWidth="282.0" promptText="Search" styleClass="search" stylesheets="@../css/movie.css" />
+                              <FontAwesomeIcon glyphName="SEARCH" layoutX="23.0" layoutY="50.0" size="1.4em" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
