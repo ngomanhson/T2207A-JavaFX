@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="256.0" layoutY="222.0" prefHeight="768.0" prefWidth="1366.0" stylesheets="@../css/movie.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="44.0" prefWidth="1366.0" stylesheets="@../css/movie.css" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="569.0" layoutY="-100.0" prefHeight="38.0" prefWidth="1366.0" styleClass="top-from" stylesheets="@../css/movie.css" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label layoutX="38.0" layoutY="9.0" text="Movie Ticket Booking Management system">
+                           <font>
+                              <Font name="Microsoft Sans Serif" size="13.0" />
+                           </font>
+                        </Label>
+                        <FontAwesomeIcon fill="#c30c0c" glyphName="PLAY" layoutX="14.0" layoutY="22.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane prefHeight="724.0" prefWidth="215.0" styleClass="nav-from" stylesheets="@../css/movie.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="54.0" layoutY="179.0" text="Welcome" textFill="#fff8f8">
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="26.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="8.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../images/logo.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="22.0" layoutY="664.0" mnemonicParsing="false" styleClass="signout" stylesheets="@../css/movie.css" textFill="#fcfcfc">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="SIGN_OUT" size="1.4em" />
+                     </graphic>
+                  </Button>
+                  <Label layoutX="87.0" layoutY="669.0" text="Back" textFill="WHITE">
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="18.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="14.0" layoutY="331.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="175.0" styleClass="nav-btn" stylesheets="@../css/movie.css" text="Dashboard" AnchorPane.leftAnchor="10.0">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="DASHBOARD" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="14.0" layoutY="444.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="175.0" styleClass="nav-btn" stylesheets="@../css/movie.css" text="Customers" AnchorPane.leftAnchor="10.0">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="USERS" />
+                     </graphic>
+                  </Button>
+                  <Button layoutX="15.0" layoutY="386.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="185.0" styleClass="nav-btn" stylesheets="@../css/movie.css" text="Available Movies" AnchorPane.leftAnchor="10.0">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="PLAY_CIRCLE" />
+                     </graphic>
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane fx:id="sold_from" prefHeight="724.0" prefWidth="1151.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <AnchorPane layoutX="5.0" layoutY="14.0" prefHeight="247.0" prefWidth="1141.0" styleClass="bg-white" stylesheets="@../css/movie.css">
+                           <children>
+                              <AnchorPane layoutY="-1.0" prefHeight="249.0" prefWidth="315.0" styleClass="info-card" stylesheets="@../css/movie.css">
+                                 <children>
+                                    <Label layoutX="10.0" layoutY="20.0" text="Movie Title:">
+                                       <font>
+                                          <Font name="Microsoft Sans Serif" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="105.0" layoutY="14.0" prefHeight="29.0" prefWidth="204.0" styleClass="label-info" stylesheets="@../css/movie.css" text="Movie Title:">
+                                       <font>
+                                          <Font name="Microsoft Sans Serif" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="41.0" layoutY="71.0" text="Genre:">
+                                       <font>
+                                          <Font name="Microsoft Sans Serif" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="105.0" layoutY="65.0" prefHeight="29.0" prefWidth="204.0" styleClass="label-info" stylesheets="@../css/movie.css" text="Movie Title:">
+                                       <font>
+                                          <Font name="Microsoft Sans Serif" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="105.0" layoutY="117.0" prefHeight="29.0" prefWidth="204.0" styleClass="label-info" stylesheets="@../css/movie.css" text="Movie Title:">
+                                       <font>
+                                          <Font name="Microsoft Sans Serif" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="51.0" layoutY="123.0" text="Date:">
+                                       <font>
+                                          <Font name="Microsoft Sans Serif" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Button layoutX="105.0" layoutY="177.0" mnemonicParsing="false" styleClass="insert-btn" stylesheets="@../css/movie.css" text="Select Movie" textFill="WHITE" />
+                                 </children>
+                              </AnchorPane>
+                              <TableView layoutX="318.0" prefHeight="249.0" prefWidth="824.0" stylesheets="@../css/movie.css">
+                                <columns>
+                                  <TableColumn prefWidth="349.0" text="Movie Title" />
+                                  <TableColumn prefWidth="237.0" text="Genre" />
+                                    <TableColumn prefWidth="239.0" text="Showing Date" />
+                                </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="5.0" layoutY="305.0" prefHeight="405.0" prefWidth="1141.0" styleClass="bg-white" stylesheets="@../css/movie.css">
+                           <children>
+                              <AnchorPane layoutX="-1.0" layoutY="-2.0" prefHeight="407.0" prefWidth="315.0" styleClass="info-card" stylesheets="@../css/movie.css">
+                                 <children>
+                                    <ImageView fitHeight="237.0" fitWidth="200.0" layoutX="73.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/image.jpg" />
+                                       </image></ImageView>
+                                    <Label layoutX="38.0" layoutY="264.0" styleClass="subtitle" stylesheets="@../css/movie.css" text="Hà Hữu Hoàng và đồng bọn">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font></Label>
+                                 </children></AnchorPane>
+                              <Label layoutX="341.0" layoutY="21.0" styleClass="title-pay" stylesheets="@../css/movie.css" text="Purchase Ticket">
+                                 <font>
+                                    <Font name="Microsoft Sans Serif" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="578.0" layoutY="112.0" styleClass="title-pay2" stylesheets="@../css/movie.css" text="Quantity" />
+                              <Label layoutX="734.0" layoutY="112.0" styleClass="title-pay2" stylesheets="@../css/movie.css" text="Price($)" />
+                              <Label layoutX="429.0" layoutY="164.0" styleClass="title-pay2" stylesheets="@../css/movie.css" text="Special Class" />
+                              <Spinner layoutX="579.0" layoutY="160.0" prefWidth="108.0" />
+                              <Label layoutX="430.0" layoutY="229.0" styleClass="title-pay2" stylesheets="@../css/movie.css" text="Normal Class" />
+                              <Spinner layoutX="579.0" layoutY="225.0" prefWidth="108.0" />
+                              <Button layoutX="341.0" layoutY="303.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="85.0" styleClass="btn-clear" stylesheets="@../css/movie.css" text="Clear" />
+                              <Button layoutX="909.0" layoutY="303.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="85.0" styleClass="btn-buy" stylesheets="@../css/movie.css" text="Buy" />
+                              <Button layoutX="796.0" layoutY="303.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="85.0" styleClass="btn-receipt" stylesheets="@../css/movie.css" text="Receipt" />
+                              <Label layoutX="735.0" layoutY="161.0" text="\$0.0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="737.0" layoutY="225.0" text="\$0.0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="796.0" layoutY="252.0" style="-fx-font-weight: bold; -fx-font-size: 25px;" text="Total: ">
+                                 <font>
+                                    <Font name="Arial" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="881.0" layoutY="252.0" style="-fx-font-size: 25px;" text="\$0.0">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children></AnchorPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="476.0" layoutY="262.0" prefHeight="724.0" prefWidth="1151.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
