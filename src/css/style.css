@@ -1,0 +1,12 @@
+VBox{
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+Pane{
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+text{
+    -fx-font-weight: 700;
+}
+SPINNER{
+
+}
