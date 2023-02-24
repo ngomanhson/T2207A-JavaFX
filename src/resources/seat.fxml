@@ -17,55 +17,6 @@
             <Image url="@../images/background.jpg" />
          </image>
       </ImageView>
-      <AnchorPane layoutX="41.0" layoutY="22.0" prefHeight="702.0" prefWidth="338.0">
-         <children>
-            <Pane layoutX="356.0" layoutY="444.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
-               <children>
-                  <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="E" />
-               </children>
-            </Pane>
-            <Pane layoutX="356.0" layoutY="662.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
-               <children>
-                  <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="I" />
-               </children>
-            </Pane>
-            <Pane layoutX="356.0" layoutY="553.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
-               <children>
-                  <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="G" />
-               </children>
-            </Pane>
-            <Pane layoutX="356.0" layoutY="499.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
-               <children>
-                  <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="F" />
-               </children>
-            </Pane>
-            <Pane layoutX="356.0" layoutY="608.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
-               <children>
-                  <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="H" />
-               </children>
-            </Pane>
-            <Pane layoutX="356.0" layoutY="333.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
-               <children>
-                  <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="C" />
-               </children>
-            </Pane>
-            <Pane layoutX="356.0" layoutY="279.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
-               <children>
-                  <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="B" />
-               </children>
-            </Pane>
-            <Pane layoutX="356.0" layoutY="224.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
-               <children>
-                  <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="A" />
-               </children>
-            </Pane>
-            <Pane layoutX="356.0" layoutY="388.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
-               <children>
-                  <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="D" />
-               </children>
-            </Pane>
-         </children>
-      </AnchorPane>
       <Pane layoutX="41.0" prefHeight="767.0" prefWidth="276.0" stylesheets="@../css/style.css">
          <children>
             <Text fill="WHITE" layoutX="15.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The distance from the screento the nearest row of seats is 3m6" wrappingWidth="247.0">
@@ -122,169 +73,218 @@
                   <Image url="@../images/logo.png" />
                </image>
             </ImageView>
+            <AnchorPane layoutX="-63.0" layoutY="22.0" prefHeight="705.0" prefWidth="417.0">
+               <children>
+                  <Pane layoutX="356.0" layoutY="447.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="E" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="356.0" layoutY="665.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="I" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="356.0" layoutY="555.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="G" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="356.0" layoutY="502.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="F" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="356.0" layoutY="611.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="H" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="356.0" layoutY="334.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="C" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="356.0" layoutY="279.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="B" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="356.0" layoutY="224.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="A" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="356.0" layoutY="388.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 50%;" stylesheets="@../css/style.css">
+                     <children>
+                        <Text fill="WHITE" layoutX="12.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 23;" text="D" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
          </children>
       </Pane>
-      <AnchorPane layoutX="456.0" layoutY="234.0" prefHeight="496.0" prefWidth="790.0">
+      <AnchorPane layoutX="469.0" layoutY="236.0" prefHeight="496.0" prefWidth="790.0">
          <children>
             <Button fx:id="seatA1" layoutX="56.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A1" />
             <Button fx:id="seatA2" layoutX="128.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A2" />
             <Button fx:id="seatA3" layoutX="197.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A3" />
-            <Button fx:id="seatA4" onAction="#onSeatClick" layoutX="269.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A4" />
-            <Button fx:id="seatA5" onAction="#onSeatClick" layoutX="343.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A5" />
-            <Button fx:id="seatA6" onAction="#onSeatClick" layoutX="415.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A6" />
-            <Button fx:id="seatA7" onAction="#onSeatClick" layoutX="484.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A7" />
-            <Button fx:id="seatA8" onAction="#onSeatClick" layoutX="556.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A8" />
-            <Button fx:id="seatA9" onAction="#onSeatClick" layoutX="625.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A9" />
-            <Button fx:id="seatA10" onAction="#onSeatClick" layoutX="697.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A10" />
-            <Button fx:id="seatB1" onAction="#onSeatClick" layoutX="56.0" layoutY="68.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B1" />
-            <Button fx:id="seatB2" onAction="#onSeatClick" layoutX="128.0" layoutY="68.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B2" />
-            <Button fx:id="seatB3" onAction="#onSeatClick" layoutX="197.0" layoutY="68.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B3" />
-            <Button fx:id="seatB4" onAction="#onSeatClick" layoutX="269.0" layoutY="68.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B4" />
-            <Button fx:id="seatB5" onAction="#onSeatClick" layoutX="343.0" layoutY="68.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B5" />
-            <Button fx:id="seatB6" onAction="#onSeatClick" layoutX="415.0" layoutY="68.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B6" />
-            <Button fx:id="seatB7" onAction="#onSeatClick" layoutX="484.0" layoutY="68.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B7" />
-            <Button fx:id="seatB8" onAction="#onSeatClick" layoutX="556.0" layoutY="68.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B8" />
-            <Button fx:id="seatB9" onAction="#onSeatClick" layoutX="625.0" layoutY="68.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B9" />
-            <Button fx:id="seatB10" onAction="#onSeatClick" layoutX="697.0" layoutY="68.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B10" />
-            <Button fx:id="seatC1" onAction="#onSeatClick" layoutX="56.0" layoutY="121.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C1" />
-            <Button fx:id="seatC2" onAction="#onSeatClick" layoutX="128.0" layoutY="121.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C2" />
-            <Button fx:id="seatC3" onAction="#onSeatClick" layoutX="197.0" layoutY="121.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C3" />
-            <Button fx:id="seatC4" onAction="#onSeatClick" layoutX="269.0" layoutY="121.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C4" />
-            <Button fx:id="seatC5" onAction="#onSeatClick" layoutX="343.0" layoutY="121.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C5" />
-            <Button fx:id="seatC6" onAction="#onSeatClick" layoutX="415.0" layoutY="121.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C6" />
-            <Button fx:id="seatC7" onAction="#onSeatClick" layoutX="484.0" layoutY="121.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C7" />
-            <Button fx:id="seatC8" onAction="#onSeatClick" layoutX="556.0" layoutY="121.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C8" />
-            <Button fx:id="seatC9" onAction="#onSeatClick" layoutX="625.0" layoutY="121.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C9" />
-            <Button fx:id="seatC10" onAction="#onSeatClick" layoutX="697.0" layoutY="121.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C10" />
-            <Button fx:id="seatD1" onAction="#onSeatClick" layoutX="56.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D1" />
-            <Button fx:id="seatD2" onAction="#onSeatClick" layoutX="128.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D2" />
-            <Button fx:id="seatD3" onAction="#onSeatClick" layoutX="197.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D3" />
-            <Button fx:id="seatD4" onAction="#onSeatClick" layoutX="269.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D4" />
-            <Button fx:id="seatD5" onAction="#onSeatClick" layoutX="343.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D5" />
-            <Button fx:id="seatD6" onAction="#onSeatClick" layoutX="415.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D6" />
-            <Button fx:id="seatD7" onAction="#onSeatClick" layoutX="484.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D7" />
-            <Button fx:id="seatD8" onAction="#onSeatClick" layoutX="556.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D8" />
-            <Button fx:id="seatD9" onAction="#onSeatClick" layoutX="625.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D9" />
-            <Button fx:id="seatD10" onAction="#onSeatClick" layoutX="697.0" layoutY="175.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D10" />
-            <Button fx:id="seatE1" onAction="#onSeatClick" layoutX="56.0" layoutY="234.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E1" />
-            <Button fx:id="seatE2" onAction="#onSeatClick" layoutX="128.0" layoutY="234.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E2" />
-            <Button fx:id="seatE3" onAction="#onSeatClick" layoutX="197.0" layoutY="234.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E3" />
-            <Button fx:id="seatE4" onAction="#onSeatClick" layoutX="269.0" layoutY="234.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E4" />
-            <Button fx:id="seatE5" onAction="#onSeatClick" layoutX="343.0" layoutY="234.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E5" />
-            <Button fx:id="seatE6" onAction="#onSeatClick" layoutX="415.0" layoutY="234.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E6" />
-            <Button fx:id="seatE7" onAction="#onSeatClick" layoutX="484.0" layoutY="234.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E7" />
-            <Button fx:id="seatE8" onAction="#onSeatClick" layoutX="556.0" layoutY="234.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E8" />
-            <Button fx:id="seatE9" onAction="#onSeatClick" layoutX="625.0" layoutY="234.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E9" />
-            <Button fx:id="seatE10" onAction="#onSeatClick" layoutX="697.0" layoutY="234.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E10" />
-            <Button fx:id="seatF1" onAction="#onSeatClick" layoutX="56.0" layoutY="289.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="F1" />
-            <Button fx:id="seatF2" onAction="#onSeatClick" layoutX="128.0" layoutY="289.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="F2" />
-            <Button fx:id="seatF3" onAction="#onSeatClick" layoutX="197.0" layoutY="289.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="F3" textFill="#001fff" />
-            <Button fx:id="seatF4" onAction="#onSeatClick" layoutX="269.0" layoutY="289.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="F4" textFill="#001fff">
+            <Button fx:id="seatA4" layoutX="269.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A4" />
+            <Button fx:id="seatA5" layoutX="343.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A5" />
+            <Button fx:id="seatA6" layoutX="415.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A6" />
+            <Button fx:id="seatA7" layoutX="484.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A7" />
+            <Button fx:id="seatA8" layoutX="556.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A8" />
+            <Button fx:id="seatA9" layoutX="625.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A9" />
+            <Button fx:id="seatA10" layoutX="697.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="A10" />
+            <Button fx:id="seatB1" layoutX="56.0" layoutY="68.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B1" />
+            <Button fx:id="seatB2" layoutX="128.0" layoutY="68.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B2" />
+            <Button fx:id="seatB3" layoutX="197.0" layoutY="68.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B3" />
+            <Button fx:id="seatB4" layoutX="269.0" layoutY="68.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B4" />
+            <Button fx:id="seatB5" layoutX="343.0" layoutY="68.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B5" />
+            <Button fx:id="seatB6" layoutX="415.0" layoutY="68.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B6" />
+            <Button fx:id="seatB7" layoutX="484.0" layoutY="68.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B7" />
+            <Button fx:id="seatB8" layoutX="556.0" layoutY="68.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B8" />
+            <Button fx:id="seatB9" layoutX="625.0" layoutY="68.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B9" />
+            <Button fx:id="seatB10" layoutX="697.0" layoutY="68.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="B10" />
+            <Button fx:id="seatC1" layoutX="56.0" layoutY="121.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C1" />
+            <Button fx:id="seatC2" layoutX="128.0" layoutY="121.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C2" />
+            <Button fx:id="seatC3" layoutX="197.0" layoutY="121.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C3" />
+            <Button fx:id="seatC4" layoutX="269.0" layoutY="121.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C4" />
+            <Button fx:id="seatC5" layoutX="343.0" layoutY="121.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C5" />
+            <Button fx:id="seatC6" layoutX="415.0" layoutY="121.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C6" />
+            <Button fx:id="seatC7" layoutX="484.0" layoutY="121.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C7" />
+            <Button fx:id="seatC8" layoutX="556.0" layoutY="121.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C8" />
+            <Button fx:id="seatC9" layoutX="625.0" layoutY="121.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C9" />
+            <Button fx:id="seatC10" layoutX="697.0" layoutY="121.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="C10" />
+            <Button fx:id="seatD1" layoutX="56.0" layoutY="175.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D1" />
+            <Button fx:id="seatD2" layoutX="128.0" layoutY="175.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D2" />
+            <Button fx:id="seatD3" layoutX="197.0" layoutY="175.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D3" />
+            <Button fx:id="seatD4" layoutX="269.0" layoutY="175.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D4" />
+            <Button fx:id="seatD5" layoutX="343.0" layoutY="175.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D5" />
+            <Button fx:id="seatD6" layoutX="415.0" layoutY="175.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D6" />
+            <Button fx:id="seatD7" layoutX="484.0" layoutY="175.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D7" />
+            <Button fx:id="seatD8" layoutX="556.0" layoutY="175.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D8" />
+            <Button fx:id="seatD9" layoutX="625.0" layoutY="175.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D9" />
+            <Button fx:id="seatD10" layoutX="697.0" layoutY="175.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="D10" />
+            <Button fx:id="seatE1" layoutX="56.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E1" />
+            <Button fx:id="seatE2" layoutX="128.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E2" />
+            <Button fx:id="seatE3" layoutX="197.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E3" />
+            <Button fx:id="seatE4" layoutX="269.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E4" />
+            <Button fx:id="seatE5" layoutX="343.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E5" />
+            <Button fx:id="seatE6" layoutX="415.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E6" />
+            <Button fx:id="seatE7" layoutX="484.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E7" />
+            <Button fx:id="seatE8" layoutX="556.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E8" />
+            <Button fx:id="seatE9" layoutX="625.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E9" />
+            <Button fx:id="seatE10" layoutX="697.0" layoutY="234.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="E10" />
+            <Button fx:id="seatF1" layoutX="56.0" layoutY="289.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="F1" />
+            <Button fx:id="seatF2" layoutX="128.0" layoutY="289.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="F2" />
+            <Button fx:id="seatF3" layoutX="197.0" layoutY="289.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="F3" textFill="#001fff" />
+            <Button fx:id="seatF4" layoutX="269.0" layoutY="289.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="F4" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatF5" onAction="#onSeatClick" layoutX="343.0" layoutY="289.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="F5" textFill="#001fff">
+            <Button fx:id="seatF5" layoutX="343.0" layoutY="289.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="F5" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatF6" onAction="#onSeatClick" layoutX="415.0" layoutY="289.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="F6" textFill="#001fff">
+            <Button fx:id="seatF6" layoutX="415.0" layoutY="289.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="F6" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatF7" onAction="#onSeatClick" layoutX="484.0" layoutY="289.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="F7" textFill="#001fff">
+            <Button fx:id="seatF7" layoutX="484.0" layoutY="289.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="F7" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatF8" onAction="#onSeatClick" layoutX="556.0" layoutY="289.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="F8" textFill="#001fff">
+            <Button fx:id="seatF8" layoutX="556.0" layoutY="289.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="F8" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatF9" onAction="#onSeatClick" layoutX="625.0" layoutY="289.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="F9" />
-            <Button fx:id="seatF10" onAction="#onSeatClick" layoutX="697.0" layoutY="289.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="F10" />
-            <Button fx:id="seatG1" onAction="#onSeatClick" layoutX="56.0" layoutY="342.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="G1" />
-            <Button fx:id="seatG2" onAction="#onSeatClick" layoutX="128.0" layoutY="342.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="G2" />
-            <Button fx:id="seatG3" onAction="#onSeatClick" layoutX="197.0" layoutY="342.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="G3" textFill="#001fff">
+            <Button fx:id="seatF9" layoutX="625.0" layoutY="289.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="F9" />
+            <Button fx:id="seatF10" layoutX="697.0" layoutY="289.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="F10" />
+            <Button fx:id="seatG1" layoutX="56.0" layoutY="342.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="G1" />
+            <Button fx:id="seatG2" layoutX="128.0" layoutY="342.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="G2" />
+            <Button fx:id="seatG3" layoutX="197.0" layoutY="342.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="G3" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatG4" onAction="#onSeatClick" layoutX="269.0" layoutY="342.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="G4" textFill="#001fff">
+            <Button fx:id="seatG4" layoutX="269.0" layoutY="342.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="G4" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatG5" onAction="#onSeatClick" layoutX="343.0" layoutY="342.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="G5" textFill="#001fff">
+            <Button fx:id="seatG5" layoutX="343.0" layoutY="342.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="G5" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatG6" onAction="#onSeatClick" layoutX="415.0" layoutY="342.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="G6" textFill="#001fff">
+            <Button fx:id="seatG6" layoutX="415.0" layoutY="342.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="G6" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatG7" onAction="#onSeatClick" layoutX="484.0" layoutY="342.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="G7" textFill="#001fff">
+            <Button fx:id="seatG7" layoutX="484.0" layoutY="342.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="G7" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatG8" onAction="#onSeatClick" layoutX="556.0" layoutY="342.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="G8" textFill="#001fff">
+            <Button fx:id="seatG8" layoutX="556.0" layoutY="342.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="G8" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatG9" onAction="#onSeatClick" layoutX="625.0" layoutY="342.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="G9" />
-            <Button fx:id="seatG10" onAction="#onSeatClick" layoutX="697.0" layoutY="342.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="G10" />
-            <Button fx:id="seatH1" onAction="#onSeatClick" layoutX="56.0" layoutY="398.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="H1" />
-            <Button fx:id="seatH2" onAction="#onSeatClick" layoutX="128.0" layoutY="398.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="H2" />
-            <Button fx:id="seatH3" onAction="#onSeatClick" layoutX="197.0" layoutY="398.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="H3" textFill="#001fff">
+            <Button fx:id="seatG9" layoutX="625.0" layoutY="342.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="G9" />
+            <Button fx:id="seatG10" layoutX="697.0" layoutY="342.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="G10" />
+            <Button fx:id="seatH1" layoutX="56.0" layoutY="398.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="H1" />
+            <Button fx:id="seatH2" layoutX="128.0" layoutY="398.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="H2" />
+            <Button fx:id="seatH3" layoutX="197.0" layoutY="398.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="H3" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatH4" onAction="#onSeatClick" layoutX="269.0" layoutY="398.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="H4" textFill="#001fff">
+            <Button fx:id="seatH4" layoutX="269.0" layoutY="398.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="H4" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatH5" onAction="#onSeatClick" layoutX="343.0" layoutY="398.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="H5" textFill="#001fff">
+            <Button fx:id="seatH5" layoutX="343.0" layoutY="398.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="H5" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatH6" onAction="#onSeatClick" layoutX="415.0" layoutY="398.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="H6" textFill="#001fff">
+            <Button fx:id="seatH6" layoutX="415.0" layoutY="398.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="H6" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatH7" onAction="#onSeatClick" layoutX="484.0" layoutY="398.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="H7" textFill="#001fff">
+            <Button fx:id="seatH7" layoutX="484.0" layoutY="398.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="H7" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatH8" onAction="#onSeatClick" layoutX="556.0" layoutY="398.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="H8" textFill="#001fff">
+            <Button fx:id="seatH8" layoutX="556.0" layoutY="398.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="H8" textFill="#001fff">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatH9" onAction="#onSeatClick" layoutX="625.0" layoutY="398.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="H9" />
-            <Button fx:id="seatH10" onAction="#onSeatClick" layoutX="697.0" layoutY="398.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="H10" />
-            <Button fx:id="seatI1" onAction="#onSeatClick" layoutX="128.0" layoutY="451.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="126.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="I1" textFill="RED">
+            <Button fx:id="seatH9" layoutX="625.0" layoutY="398.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="H9" />
+            <Button fx:id="seatH10" layoutX="697.0" layoutY="398.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="57.0" style="-fx-cursor: hand;" text="H10" />
+            <Button fx:id="seatI1" layoutX="128.0" layoutY="451.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="126.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="I1" textFill="RED">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatI2" onAction="#onSeatClick" layoutX="343.0" layoutY="451.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="132.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="I2" textFill="RED">
+            <Button fx:id="seatI2" layoutX="343.0" layoutY="451.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="132.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="I2" textFill="RED">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="seatI3" onAction="#onSeatClick" layoutX="556.0" layoutY="451.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="126.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="I3" textFill="RED">
+            <Button fx:id="seatI3" layoutX="556.0" layoutY="451.0" mnemonicParsing="false" onAction="#onSeatClick" prefHeight="40.0" prefWidth="126.0" style="-fx-cursor: hand; -fx-font-weight: bold;" text="I3" textFill="RED">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
@@ -328,18 +328,36 @@
             </Pane>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="445.0" layoutY="246.0" prefHeight="488.0" prefWidth="57.0">
+      <AnchorPane layoutX="392.0" layoutY="224.0" prefHeight="519.0" prefWidth="109.0">
          <children>
-            <Pane layoutX="21.0" layoutY="-8.0" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: white; -fx-background-radius: 50%;" />
-            <Pane layoutX="26.0" prefHeight="473.0" prefWidth="4.0" style="-fx-background-color: white;" />
-            <FontAwesomeIcon fill="WHITE" glyphName="ARROW_DOWN" layoutX="19.0" layoutY="488.0" size="1.3em" />
+            <Pane layoutX="51.0" layoutY="3.0" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: white; -fx-background-radius: 50%;" />
+            <Pane layoutX="57.0" layoutY="15.0" prefHeight="485.0" prefWidth="4.0" style="-fx-background-color: white;" />
+            <Pane layoutY="25.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <FontAwesomeIcon fill="WHITE" glyphName="ARROW_DOWN" layoutX="50.0" layoutY="514.0" size="1.3em" />
+            <Pane layoutY="79.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="132.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="186.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="409.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="245.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="300.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="353.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="462.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="1246.0" layoutY="246.0" prefHeight="488.0" prefWidth="57.0">
+      <AnchorPane layoutX="1247.0" layoutY="225.0" prefHeight="519.0" prefWidth="109.0">
          <children>
-            <Pane layoutX="21.0" layoutY="-8.0" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: white; -fx-background-radius: 50%;" />
-            <Pane layoutX="26.0" prefHeight="473.0" prefWidth="4.0" style="-fx-background-color: white;" />
-            <FontAwesomeIcon fill="WHITE" glyphName="ARROW_DOWN" layoutX="19.0" layoutY="488.0" size="1.3em" />
+            <Pane layoutX="51.0" layoutY="3.0" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: white; -fx-background-radius: 50%;" />
+            <Pane layoutX="57.0" layoutY="15.0" prefHeight="485.0" prefWidth="4.0" style="-fx-background-color: white;" />
+            <Pane layoutY="25.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <FontAwesomeIcon fill="WHITE" glyphName="ARROW_DOWN" layoutX="50.0" layoutY="514.0" size="1.3em" />
+            <Pane layoutY="79.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="132.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="186.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="409.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="245.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="300.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="353.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
+            <Pane layoutY="462.0" prefHeight="41.0" prefWidth="109.0" stylesheets="@../css/style.css" />
          </children>
       </AnchorPane>
    </children>
